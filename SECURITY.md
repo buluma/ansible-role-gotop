@@ -21,5 +21,3 @@ Please [open an issue](https://github.com/buluma/ansible-role-gotop/issues) desc
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
-
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
