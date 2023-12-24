@@ -1,10 +1,10 @@
-# [Ansible role gotop](#gotop)
+# Ansible role [gotop](https://galaxy.ansible.com/ui/standalone/roles/buluma/gotop/documentation)
 
 Install gotop on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-gotop/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-gotop/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-gotop/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-gotop/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-gotop.svg)](https://github.com/buluma/ansible-role-gotop/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/gotop)](https://galaxy.ansible.com/ui/standalone/roles/buluma/gotop/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -107,9 +107,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
