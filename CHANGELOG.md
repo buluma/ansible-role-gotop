@@ -1,5 +1,9 @@
 # Changelog
 
+## [24.3.31](https://github.com/buluma/ansible-role-gotop/tree/24.3.31) (2024-03-29)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gotop/compare/0.3.0...24.3.31)
+
 ## [0.3.0](https://github.com/buluma/ansible-role-gotop/tree/0.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-gotop/compare/0.2.0...0.3.0)
