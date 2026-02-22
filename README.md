@@ -11,29 +11,25 @@ Install gotop on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-gotop/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.gotop
+  - role: buluma.gotop
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-gotop/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
-    - role: buluma.core_dependencies
-    - role: buluma.ca_certificates
+  - role: buluma.bootstrap
+  - role: buluma.core_dependencies
+  - role: buluma.ca_certificates
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -43,14 +39,8 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-gotop/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for gotop
-
-# The version of gotop to install.
-gotop_version: "4.1.2"
-
-# Where to install gotop.
 gotop_installation_path: /usr/local/bin
+gotop_version: 4.1.2
 ```
 
 ## [Requirements](#requirements)
