@@ -73,7 +73,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ```yaml
 ---
 gotop_installation_path: /usr/local/bin
-gotop_version: "4.1.2"
+gotop_version: "4.2.0"
 ```
 
 ## [Requirements](#requirements)
